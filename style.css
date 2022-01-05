@@ -52,6 +52,11 @@ box-shadow:5px 6px 8px gray;
   line-height: 30x;
   font-size: 20px;
 }
+.bg-2nd{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
 
 .skill {
  
@@ -70,3 +75,15 @@ h2{
     .skill:hover{
         background-color: rgba(223, 110, 95, 0.918);
     }
+
+    .exp-section{
+        background-image: url(image/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position:left ;
+    }
+
+    .text{
+        text-align: center;
+        padding: 30px;
+    }
+    
