@@ -88,9 +88,11 @@ h2{
         background-position:left ;
     }
 
-    .text{
+    .footer-text{
         text-align: center;
         padding: 30px;
+        background-color: rgba(236, 224, 224, 0.658);
+
     }
     .color{
         border-radius: 10px;
