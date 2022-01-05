@@ -1,17 +1,21 @@
 body {
   margin: 0;
+  
   font-family:Poppins", sans-serif;
-  height: 500px;
+  
 }
 .container-faxibilety {
   display: flex;
   margin-bottom: 150px;
+  
+ 
 }
 
 .half {
   width: 50%;
   padding: 20px;
   margin: 20px;
+  
 }
 .half img {
   width: 80%;
@@ -19,6 +23,7 @@ body {
 .baner {
   background-image: url(image/top-banner.png);
   background-repeat: no-repeat;
+  
 }
 h1 {
   font-size: 40px;
@@ -66,6 +71,7 @@ box-shadow:5px 6px 8px gray;
   padding: 30px 40px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 10px;
+
 }
 h2{
         font-size: 30px;
@@ -86,4 +92,16 @@ h2{
         text-align: center;
         padding: 30px;
     }
-    
+    .color{
+        border-radius: 10px;
+        border-left: 8px solid;
+        border-image: linear-gradient(orange, red);
+        border-image-slice: 1;
+        
+    }
+    .color2{
+        border-left: 8px solid;
+        border-image: linear-gradient(rgb(47, 0, 255), rgb(86, 224, 58));
+        border-image-slice: 3;
+        
+    }
